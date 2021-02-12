@@ -1,0 +1,121 @@
+body {
+     color: #555;
+     font-family: Arial, sans-serif, Helvetica;
+     font-size: 16px;
+     line-height: 1.6em;
+     margin: 0;
+     padding: 0;
+     height: 100%;
+}
+
+.container {
+     width: 90%;
+     margin: auto;
+     padding: 0;
+     overflow: hidden;
+}
+
+#main-header {
+     background-image: url(../images/showcase.jpg);
+     min-height: 400px;
+     box-shadow: 0px 10px 30px #6876aa;
+}
+
+#main-header h1 {
+     color: #fff;
+     font-size: 90px;
+     font-family: sans;
+     padding-top: 200px;
+     margin: 0;
+}
+
+#main-header h3 {
+     color: #d9d9d9;
+     font-size: 30px;
+     font-family: sans;
+     padding-top: 10px;
+}
+
+#index-section {
+     float: left;
+     width: 27%;
+     margin-right: 10px;
+     position: sticky;
+     top: 0;
+}
+
+#index-section h4 {
+     margin-top: 50px;
+     text-align: center;
+     font-size: 25px;
+     font-weight: bold;
+     color: #181822;
+}
+
+#index-section ul {
+     list-style: none;
+     line-height: 2em;
+}
+
+#index-section a {
+     color: #38384e;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+}
+
+#index-section a:hover {
+     color: #0b123b;
+}
+
+#section-list {
+     float: right;
+     width: 70%;
+     text-align: left;
+     margin-top: 40px;
+}
+
+.program-list-section {
+     box-shadow: 5px 5px 15px #989898;
+     margin-bottom: 20px;
+     margin-right: 50px;
+     padding: 15px;
+}
+
+.program-list-section li {
+     line-height: 2em;
+}
+
+.program-list-section a {
+     color: #38384e;
+     text-decoration: none;
+     font-size: 18px;
+}
+
+.program-list-section a:hover {
+     color: #0b123b;
+}
+
+#fixed-bar {
+     text-align: center;
+     background-color: #fbef85;
+     padding: 10px;
+     position: fixed;
+     top: 380px;
+     right: 0px;
+     box-shadow: 5px 5px 15px #989898;
+}
+
+#main-footer {
+     background: #333;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     margin-top: 40px;
+     font-size: 18px;
+}
+
+#main-footer a {
+     color: #fff;
+     text-decoration: underline;
+}
